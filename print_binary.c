@@ -15,6 +15,7 @@ int print_binary(va_list list)
 	if (num  == 0)
 	{
 		_putchar('0');
+		counter++;
 		return (counter);
 	}
 	while (num > 0)
@@ -25,6 +26,7 @@ int print_binary(va_list list)
 	for (n = counter - 1; n >= 0; n--)
 	{
 		_putchar(array[n] + '0');
+		counter++;
 	}
 	return (counter);
 }
