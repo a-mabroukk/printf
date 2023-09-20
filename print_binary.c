@@ -7,7 +7,7 @@
 */
 int print_binary(va_list list)
 {
-	int num = va_arg(list, unsigned int);
+	unsigned int num = va_arg(list, unsigned int);
 	int array[32];
 	int n;
 	int counter = 0;
