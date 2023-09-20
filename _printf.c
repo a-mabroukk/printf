@@ -33,6 +33,8 @@ int _printf(const char *format, ...)
 				char_count += _putchar('%');
 			else if (format[i] == 'i' || format[i] == 'd')
 				char_count += print_int(list);
+			else if (format[i] == 'b')
+				char_count += print_binary(list);
 		}
 	}
 	va_end(list);
