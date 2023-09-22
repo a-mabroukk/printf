@@ -27,4 +27,5 @@ int main(void)
 	_printf("Len:[%d]\n", len);
 	printf("Len:[%d]\n", len2);
 	_printf("binary of 98 is %b\n", 98);
+	_printf("Complete the sentence: You %r nothing, Jon Snow.\n", "-wonk-");
 }
