@@ -14,4 +14,6 @@ int _putchar(char c);
 int print_str(va_list list);
 int print_int(va_list list);
 int print_binary(va_list list);
+int print_rev(va_list list);
+
 #endif
