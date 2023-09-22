@@ -35,6 +35,8 @@ int _printf(const char *format, ...)
 				char_count += print_int(list);
 			else if (format[i] == 'b')
 				char_count += print_binary(list);
+			else if (format[i] == 'r')
+				char_count += print_rev(list);
 		}
 	}
 	va_end(list);
