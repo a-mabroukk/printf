@@ -17,7 +17,7 @@ int print_rev(va_list list)
 		++len;
 	}
 	string--;
-	for (c = len c > 0; c--)
+	for (c = len; c > 0; c--)
 	{
 		_putchar(*string);
 		string--;
